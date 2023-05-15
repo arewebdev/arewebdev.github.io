@@ -14,33 +14,64 @@ main {
   font-family: 'Poppins', sans-serif;
   background-color: #395b64;
   color: #f4f4f4;
-  text-align: left;
+  text-align: center;
   padding: 2em;
 }
 
-.footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: #263238;
-    text-align: center;
-    color: #f4f4f4;
-    font-family: 'Poppins', sans-serif;
+section {
+  margin-top: 48px;
 }
 
-.icons{
-    padding-top: 1rem;
+.chiedi-appuntamento {
+  box-shadow: inset 0px 1px 3px 0px #91b8b3;
+  background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+  background-color: #768d87;
+  border-radius: 5px;
+  border: 1px solid #566963;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 11px 23px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #2b665e;
 }
 
-.icons a{
-    text-decoration: none;
-    font-size: 2rem;
-    margin: 0.5rem;
-    color: #f4f4f4;
+.chiedi-appuntamento:hover {
+  background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+  background-color: #6c7c7c;
 }
 
-.company-name{
-    font-size: 1rem;
-    margin-top: 0.5rem;
+.chiedi-appuntamento:active {
+	position:relative;
+	top:1px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #263238;
+  text-align: center;
+  color: #f4f4f4;
+  font-family: 'Poppins', sans-serif;
+}
+
+.icons {
+  padding-top: 1rem;
+}
+
+.icons a {
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 0.5rem;
+  color: #f4f4f4;
+}
+
+.company-name {
+  font-size: 1rem;
+  margin-top: 0.5rem;
 }
