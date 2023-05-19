@@ -1,6 +1,6 @@
 body {
   display: grid;
-  height: 150vh;
+  height:100vh;
   grid-template-rows: auto 1fr auto;
 }
 
@@ -50,10 +50,7 @@ section {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  position: sticky;
   background: #263238;
   text-align: center;
   color: #f4f4f4;
